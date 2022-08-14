@@ -99,7 +99,9 @@ export default function QuestionPage(props) {
         <div className = "container">
             <div className="container--topmargin"></div>
             {elements}
-            {bottomButton}
+            <div className = "container--checkButton">
+                {bottomButton}
+            </div>
         </div>
     )
 }
